@@ -1,0 +1,12 @@
+#--------------------------------------------------------------
+# Simple AWS CodeDeploy Config File
+#
+# Copyleft (c) by Roman Kuznetsov
+#--------------------------------------------------------------
+
+version: 0.0
+os     : linux
+files:
+  - source     : \
+    destination: /var/www/html/
+
